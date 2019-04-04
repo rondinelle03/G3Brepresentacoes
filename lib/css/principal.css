@@ -102,6 +102,25 @@ nav .brand-logo {
 	text-align: center;
 	display: block;
 }
+
+.anima-img img{
+	width: 80%;
+	-webkit-transition: all 0.8s ease;
+-moz-transition: all 0.8s ease;
+-ms-transition: all 0.8s ease;
+-o-transition: all 0.8s ease;
+transition: all 0.8s ease;
+}
+
+.anima-img img:hover{
+	width: 70%;
+	-webkit-transition: all 0.8s ease;
+-moz-transition: all 0.8s ease;
+-ms-transition: all 0.8s ease;
+-o-transition: all 0.8s ease;
+transition: all 0.8s ease;
+}
+
 .sessao-servicos{
 	background: #3b69b0;
 	color: #fff;
@@ -148,10 +167,63 @@ background: -moz-linear-gradient(top, #3d6ca6 11%, #f7db0b 100%);
 background: -webkit-linear-gradient(top, #3d6ca6 11%,#f7db0b 100%);
 background: linear-gradient(to bottom, #3d6ca6 11%,#f7db0b 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d6ca6', endColorstr='#f7db0b',GradientType=0 );
+display: table;
+width: 100%;
+}
+.modal-content h4{
+	color: #3b69b0;
+	font-weight: bold;
+}
+
+.box-formulario input{
+	background: #fff;
+	border:1px solid #efefef;
 }
 
 .no-margin{
 	margin: 0;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+   background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: content-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #3c6ba7;
+    padding: 10px 15px;
+}
+
+textarea.materialize-textarea {
+	height: 150px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #3c6ba7;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #3c6ba7;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #3c6ba7;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #3c6ba7;
+}
+
+.input-field.col label {
+    left: 1.75rem;
 }
 
 .box-formulario h3,footer h3{
@@ -238,8 +310,25 @@ footer iframe{
 /* COL-XS */
 @media only screen and  (max-width:767px){
 
-	#maxmeio-id{
-		display: none !important;
+	.box-formulario h3{
+		font-size: 250%;
+	}
+
+	.box-formulario{
+		margin: 0 0 20px 0;
+	}
+
+	nav .brand-logo{
+		bottom: 59px;
+	}
+
+	nav .brand-logo img {
+    width: 130px;
+}
+
+	.redes-sociais{
+		position: relative;
+    top: 81px;
 	}
 
 }
