@@ -43,6 +43,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b69b0', end
 header nav a{
 	font-size: 18px;
 	font-weight: 700;
+	padding: 0 32px;
 }
 
 .brand-logo{
@@ -72,6 +73,13 @@ header nav a{
 	
 	
 }
+.f-nav{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99;
+}
+
 
 .redes-sociais li:hover{
 	background: #3d6ca5;
@@ -87,7 +95,7 @@ nav .brand-logo {
     display: inline-block;
     font-size: 2.1rem;
     padding: 0;
-    bottom: -11px;}
+    bottom: 56px;}
 
 
 .super-destaque{
@@ -95,6 +103,7 @@ nav .brand-logo {
 }
 
 .sessao-form{
+	padding-top: 60px;
 	margin: 40px 0;
 }
 
@@ -124,12 +133,14 @@ transition: all 0.8s ease;
 .sessao-servicos{
 	background: #3b69b0;
 	color: #fff;
-	padding-bottom: 5px;
+	padding: 110px 0;
 }
 
 .sessao-quem-somos{
-	margin-top: 40px;
+	padding-top: 140px;
 	margin-bottom: 40px;
+	padding-bottom: 40px;
+
 }
 
 .sessao-quem-somos h1{
@@ -262,21 +273,38 @@ footer iframe{
 }
 .info-branco h4{
 	font-family: 'Gotham-Bold';
-	font-size: 34px;
+	font-size: 30px;
 	color: #539448;
 }
 .info-branco p{
 	color: #293f87;
 	font-family: 'Gotham-Light';
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 20px;
 }
 
 .ec{
 	display: table;
-	margin-top: 60px;
+    margin-top: 35px;
+    color: #cecece;
 }
 
+.flag-ico{
+	position: absolute;
+	top: 0;
+	right: 30px;
+}
+
+.flag-ico li{
+	display: inline-table;
+}
+.flag-ico li img{
+	width: 32px;
+}
+
+.det-top{
+	position: relative;
+}
 
 @media only screen and  (min-width:1150px){
 
