@@ -142,10 +142,15 @@ transition: all 0.8s ease;
 	padding-bottom: 40px;
 
 }
+.logo-somos{
+	display: block;
+	margin-top: 30px;
+}
 
 .sessao-quem-somos h1{
 	font-size: 48px;
 	color: #3b69b0;
+	margin-top: 0;
 	font-weight: bold;
 }
 
